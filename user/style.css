@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#user_header_container{
+	background: #DEDEDE;
+	padding: 20px;
+}
+#user_header_col_4 a{
+	text-decoration: none;
+	font-size: 24px;
+	color: #59449C;
+}
+#user_header_col_8 a{
+	text-decoration: none;
+	font-size: 24px;
+	color: #59449C;
+	float: right;
+}
+/***************************Main Container Style*******************/
+#user_main_container{
+	margin-top: 50px;
+}
+#user_main_col_4{
+	background: #fff;
+	width: 100%;
+}
+#user_main_col_4 p{	
+	padding-top: 15px;
+	border-bottom: 1px solid gray;
+}
+#user_main_col_4 p a{
+	text-decoration: none;
+	font-size: 20px;
+	color: gray;
+}
+#user_main_col_4 .logo{
+	text-decoration: none;
+	background: #E001C8;
+	padding: 15px;
+	color: #fff;
+	margin-left: 50px;
+	font-size: 18px;
+	font-weight: bold;
+}
+#user_main_col_8{
+	background: #fff;
+	border-left: 50px solid #F8F8F8;
+	padding: 50px;
+}
+
+/******************************Edit Page Style***************************/
+#user_main_col_8 .edit_form {
+	width: 300px;
+}
+#user_main_col_8 .edit_form .btn{
+	float: right;
+}
+#user_main_col_8 .edit_form .btn .btn-success{
+	margin-top: 20px;
+}
+
+/**************************Message Page Style**********************/
+
+#user_main_col_8 .message_table{
+	background: lightyellow;
+	border-bottom: 2px solid gray;
+	float: left;
+	margin-left: 100px;
+}
+#user_main_col_8 .message_table tr,th,td{
+	padding: 10px;
+	border: 1px solid lightgray;
+}
+#user_main_col_8 .reply_table{
+	float: right;
+	background: lightyellow;
+	border-bottom: 2px solid gray;
+	margin-right: 100px;
+}
+#user_main_col_8 .reply_table tr,th,td{
+	padding: 10px;
+	border: 1px solid lightgray;
+}
+
+/***************************Review from PAge Style****************************/
+
+#user_main_col_8 .review_form
+{
+	width: 300px;
+	background: #EFFFC9;
+	padding: 20px;
+}
+#user_main_col_8 .review_form .review_btn{
+	padding-top: 20px;
+	text-align: right;
+}
+
+

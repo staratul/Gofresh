@@ -1,0 +1,192 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+.wrapper{
+	display: flex;
+	position: relative;
+}
+.wrapper .sidebar{
+	position: fixed;
+	width: 250px;
+	height: 100%;
+	background: #4b4276;
+	padding: 30px 0;
+}
+.wrapper .sidebar h2{
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.wrapper .sidebar ul li{
+	padding: 15px;
+	border-bottom: 1px solid rgba(0,0,0,0.20);
+	border-top: 1px solid rgba(255,255,255,0.3);
+	cursor: pointer;
+}
+.wrapper .sidebar ul li a{
+	color: #bdb8d7;
+	text-decoration: none;
+}
+.wrapper .sidebar ul li:hover {
+	background: #594f8d;
+}
+.wrapper .sidebar ul li:hover a{
+	color: #fff;
+}
+.wrapper .main_content{
+	width: 100%;
+	margin-left: 250px;
+}
+.wrapper .main_content .header{
+	padding: 20px;
+	background: #fff;
+	color: #717171;
+	border-bottom: 1px solid #e0e4e8;
+}
+.wrapper .main_content .header .logout{
+	float: right;
+}
+.wrapper .main_content .header .logout a{
+	background: #594f8d;
+	color: #fff;
+	padding: 10px;
+	text-decoration: none;
+}
+.wrapper .main_content .info{
+	margin: 20px;
+	color: #717171;
+	list-style: 25px;
+}
+.wrapper .main_content .info div{
+	margin-bottom: 20px;
+}
+
+/****************************Add Category Style******************************/
+.add_category{
+	height: 150px;
+	width: 250px;
+	border: 2px solid gray;
+	text-align: center;
+}
+.add_category .cat_text input[type="text"]{
+	width: 80%;
+	margin-top: 40px;
+	height: 35px;
+	border: 1px solid gray;
+	border-radius: 10px;
+	padding-left: 10px;
+}
+.add_category .cat_btn input[type="submit"]{
+	height: 35px;
+	width: 100px;
+	border: none;
+	background: #594f8d;
+	color: #fff;
+	border-radius: 25px;
+}
+
+/*******************************Product Upload Style****************************/
+
+.product_upload{
+	width: 500px;
+	height: auto;
+	border: 2px solid gray;
+	padding: 0 20px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.product_upload .file_upload_btn{
+	text-align: right;
+}
+.product_upload .file_upload_btn .btn-outline-primary{
+	width: 150px;
+}
+.product_upload .file_upload_file input[type="file"]{
+	height: 35px;
+}
+
+/****************************User List Style********************************/
+
+.user_list table td,th{
+	padding: 10px;
+}
+
+/**************************Product Delete Style*****************************/
+
+.delete_product{
+	text-align: center;
+	background: #fff;
+	border-bottom: 2px solid gray;
+}
+.delete_product h4{
+	text-align: center;
+	margin: 20px 0px;
+	color: blue;
+}
+.delete_product .delete_search{
+	padding-top: 20px;
+}
+.delete_product .delete_search .search_btn{
+	margin-top: 30px;
+}
+.tbl_data{
+	padding-top: 30px;
+}
+.tbl_data .delete_table{
+	margin: 0 220px;
+	background: #fff;
+}
+.tbl_data .delete_table th,tr,td{
+	padding: 20px;
+	border-bottom: 1px solid gray
+}
+
+/***********************Update Product Page Style*****************************/
+
+.product_update{
+	text-align: center;
+	background: #fff;
+	border-bottom: 2px solid gray;
+}
+.product_update h4{
+	text-align: center;
+	margin: 20px 0px;
+	color: blue;
+}
+.product_update .update_search{
+	padding-top: 20px;
+}
+.product_update .update_search .search_btn{
+	margin-top: 30px;
+}
+
+
+/***************************User Message Style******************************/
+
+.user_message{
+	background: #fff;
+	padding: 0 80px;
+	text-align: center;
+}
+
+
+/***********************Reply Message***********************/
+
+.reply{
+	width: 300px;
+	height: 100%;
+	background: #fff;
+	border: 1px solid lightgray;
+}
+.reply .text_field{
+	padding: 10px;
+}
+.reply .reply_btn{
+	text-align: right;
+	margin: 10px;
+}
